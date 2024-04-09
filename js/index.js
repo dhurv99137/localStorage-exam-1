@@ -27,7 +27,7 @@ const uimaker = () => {
 
 
         let div = document.createElement("div")
-        div.append(title, description, price, category, img, btt, ott)
+        div.append(img, title, description, price, category, btt, ott)
         document.getElementById("container").append(div)
     });
 }
